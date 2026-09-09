@@ -25,12 +25,10 @@ int	ft_recursive_power(int nb, int power)
 	return (nb * ft_recursive_power(nb, power - 1));
 }
 
-/*int	main(void)
+/*int main(void)
 {
-	printf("2 hoch 3  = %d (Erwartet: 8)\n", ft_recursive_power(2, 3));
-	printf("5 hoch 0  = %d (Erwartet: 1)\n", ft_recursive_power(5, 0));
-	printf("3 hoch 4  = %d (Erwartet: 81)\n", ft_recursive_power(3, 4));
-	printf("0 hoch 5  = %d (Erwartet: 0)\n", ft_recursive_power(0, 5));
-	printf("2 hoch -2 = %d (Erwartet: 0)\n", ft_recursive_power(2, -2));
-	return (0);
+    int ergebnis;
+    ergebnis = ft_recursive_power(3, 5);
+    printf("%d\n", ergebnis);
+    return(0);
 }*/
