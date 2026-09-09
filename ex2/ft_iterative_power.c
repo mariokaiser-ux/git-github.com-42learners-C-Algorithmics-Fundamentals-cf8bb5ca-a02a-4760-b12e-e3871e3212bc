@@ -29,7 +29,7 @@ int	ft_iterative_power(int nb, int power)
 	return (result);
 }
 
-/*int	main(void)
+int	main(void)
 {
 	printf("2 hoch 3  = %d (Erwartet: 8)\n", ft_iterative_power(2, 3));
 	printf("5 hoch 0  = %d (Erwartet: 1)\n", ft_iterative_power(5, 0));
@@ -37,7 +37,6 @@ int	ft_iterative_power(int nb, int power)
 	printf("3 hoch 4  = %d (Erwartet: 81)\n", ft_iterative_power(3, 4));
 	printf("5 hoch -2 = %d (Erwartet: 0)\n", ft_iterative_power(5, -2));
 	printf("-2 hoch 3 = %d (Erwartet: -8)\n", ft_iterative_power(-2, 3));
-    printf("5 hoch 5 = %d (Erwartet: 3125)\n", ft_iterative_power(5, 5));
-
+	printf("5 hoch 5  = %d (Erwartet: 3125)\n", ft_iterative_power(5, 5));
 	return (0);
-}*/
+}
