@@ -27,11 +27,10 @@ int	ft_iterative_factorial(int nb)
 	return (result);
 }
 
-/*int	main(void)
+/*int main(void)
 {
-	printf("Fakultät von 5: %d \n", ft_iterative_factorial(5));
-	printf("Fakultät von 0: %d \n", ft_iterative_factorial(0));
-	printf("Fakultät von -3: %d \n", ft_iterative_factorial(-3));
-	printf("Fakultät von 4: %d \n", ft_iterative_factorial(4));
-	return (0);
+    int ergebnis;
+    ergebnis = ft_iterative_factorial (3);
+    printf("%d\n", ergebnis);
+    return (0);
 }*/
